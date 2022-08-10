@@ -1,0 +1,22 @@
+{
+  "name": "regression-tests",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.0.3",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "eslint": "^7.32.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "cypress": "cypress open"
+  },
+  "description": "regression tests",
+  "author": "gary burkin",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^5.9.1",
+    "cypress-real-events": "^1.5.1"
+  }
+}

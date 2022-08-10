@@ -1,0 +1,20 @@
+{
+  "baseUrl": "https://learning.elucidat.com/course/5c9126fd760e5-611a53751213a",
+  "testFiles": "**/*.{feature,features}",
+  "parseSpecialCharSequences": false,
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000,
+  "responseTimeout": 10000,
+  "viewportHeight": 1200,
+  "viewportWidth": 1200,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "video": false,
+  "videoUploadOnPasses": false,
+  "videoCompression": 32,
+  "screenshotOnRunFailure": true,
+  "trashAssetsBeforeRuns": true,
+  "includeShadowDom": true
+}
